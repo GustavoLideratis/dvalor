@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="landing02.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style media="screen">
+        #form01 #cajaazul span {
+            position: absolute;
+            display: none;
+            color: white;
+            margin-top: 2px !important;
+            left: 0px;
+            width: 100%;
+            font-family: 'PT Sans', sans-serif;
+            font-weight: 400;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="contenedor_principal">
+        <div id="header">
+            <div id="header0">
+                <a href="#" id="header_logo">
+                    <img src="images/logo.png" alt="Logo Principal">
+                </a>
+            </div>
+        </div>
+        <div id="content_preguntas">
+            <form id="form01" action="respuesta.html" method="post" onsubmit="return validar(this)">
+
+                <div id="preguntasyrespuestas">
+                    <div class="preguntasyrespuestas">
+                        <div id="texto_principal">
+                            <p class="principal">Responde sí o no,<br> tomando en cuenta la realidad de tu empresa.</p>
+                        </div>
+
+                        <div class="cajapreguntarespuesta pr">
+                            <div class="preguntas">
+                                <p>Preguntas:</p>
+                            </div>
+                            <div class="respuestas">
+                                <strong><p id="pri" style="color:#182969">SÍ</p></strong>
+                                <strong>  <p id="seg" style="color:#182969">NO</p></strong>
+                            </div>
+                        </div>
+                        <div class="cajapreguntarespuesta">
+                            <p class="pregunta_interna">Respecto de la visión:</p>
+                            <div class="preguntas">
+                                <p>1. ¿Los intereses personales de los integrantes de la familia están alineados con la proyección futura de la empresa familiar? (si su respuesta es “no sé” marque no)</p>
+                            </div>
+                            <div class="respuestas">
+                                <div class="respuesta_int">
+                                    <span class="sir">SÍ</span>
+                                    <span class="nor">NO</span>
+                                </div>
+                                <input id="p1_1" class="pri p1 chek" rel="p1" type="checkbox" name="p1[]" value="yes">
+                                <label for="p1_1" class="f1"> </label>
+                                <input id="p1_2" class="seg p1 chek" rel="p1" type="checkbox" name="p1[]" value="no">
+                                <label for="p1_2" class="f2"> </label>
+
+                            </div>
+                        </div>
+
+
+                        <div class="cajapreguntarespuesta">
+                            <p class="pregunta_interna">Respecto del liderazgo:</p>
+                            <div class="preguntas">
+                                <p>2. ¿Los atributos personales del líder perjudican el normal desarrollo y/o crecimiento de la empresa?
+                            </div>
+                            <div class="respuestas">
+                                <div class="respuesta_int">
+                                    <span class="sir">SÍ</span>
+                                    <span class="nor">NO</span>
+                                </div>
+                                <input id="p2_1" class="pri p2 chek" rel="p2" type="checkbox" name="p2[]" value="yes">
+                                <label for="p2_1" class="f1"> </label>
+                                <input id="p2_2" class="seg p2 chek" rel="p2" type="checkbox" name="p2[]" value="no">
+                                <label for="p2_2" class="f2"> </label>
+                            </div>
+                        </div>
+                        <div class="cajapreguntarespuesta">
+                            <div class="preguntas">
+                                <p>3. ¿La familia empresaria tiene instancias, procesos y/o políticas para gobernar el comportamiento y las relaciones familia empresa?</p>
+                            </div>
+                            <div class="respuestas">
+                                <div class="respuesta_int">
+                                    <span class="sir">SÍ</span>
+                                    <span class="nor">NO</span>
+                                </div>
+                                <input id="p3_1" class="pri p3 chek" rel="p3" type="checkbox" name="p3[]" value="yes">
+                                <label for="p3_1" class="f1"> </label>
+                                <input id="p3_2" class="seg p3 chek" rel="p3" type="checkbox" name="p3[]" value="no">
+                                <label for="p3_2" class="f2"> </label>
+                            </div>
+                        </div>
+                        <div class="cajapreguntarespuesta">
+                            <div class="preguntas">
+                                <p>4. ¿La familia empresaria tiene, procesos y políticas para gestionar el ámbito empresarial de forma eficiente y efectiva?</p>
+                            </div>
+                            <div class="respuestas">
+                                <div class="respuesta_int">
+                                    <span class="sir">SÍ</span>
+                                    <span class="nor">NO</span>
+                                </div>
+                                <input id="p4_1" class="pri p4 chek" rel="p4" type="checkbox" name="p4[]" value="yes">
+                                <label for="p4_1" class="f1"> </label>
+                                <input id="p4_2" class="seg p4 chek" rel="p4" type="checkbox" name="p4[]" value="no">
+                                <label for="p4_2" class="f2"> </label>
+                            </div>
+                        </div>
+
+                        <div class="cajapreguntarespuesta">
+                            <p class="pregunta_interna">Respecto a la cultura:</p>
+
+                            <div class="preguntas">
+                                <p>5. ¿La familia empresaria tiene comportamientos disfuncionales: informales, conservadores, centralistas, paternalistas y/o conflictivos?</p>
+                            </div>
+                            <div class="respuestas02">
+                                <div class="multiple_check"><label for="">Informal</label><input id="p7_1" class="pri p7 chek" rel="p7" type="checkbox" name="p7[]" value="informal">
+                                    <label for="p7_1"> </label>
+                                </div>
+                                <div class="multiple_check"><label for="">Conservadora</label><input id="p7_2" class="seg p7 chek" rel="p7" type="checkbox" name="p7[]" value="conservadora">
+                                    <label for="p7_2"> </label>
+                                </div>
+                                <div class="multiple_check"><label for="">Centralista</label><input id="p7_3" class="seg p7 chek" rel="p7" type="checkbox" name="p7[]" value="centralista">
+                                    <label for="p7_3"> </label>
+                                </div>
+                                <div class="multiple_check"><label for="">Paternalista</label><input id="p7_4" class="seg p7 chek" rel="p7" type="checkbox" name="p7[]" value="paternalista">
+                                    <label for="p7_4"> </label>
+                                </div>
+                                <div class="multiple_check"><label for="">Conflictiva</label><input id="p7_5" class="seg p7 chek" rel="p7" type="checkbox" name="p7[]" value="conflictiva">
+                                    <label for="p7_5"> </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="preguntasyrespuestas">
+                        <div id="cajaazul">
+                            <div id="caja_interior">
+                                <p class="primero">Ingresa tu nombre y correo electrónico <br/> válido para poder conocer el resultado.</p>
+                                <div class="nombrecorreo">
+                                    <p>Nombre</p>
+                                    <input type="text" id="nombre" class="inputvalidation" name="nombre" placeholder="Ingrese Nombre" />
+                                    <span id="error-nombre">* Por favor, Ingrese un campo válido</span> </div>
+                                <div class="nombrecorreo">
+                                    <p>Correo</p>
+                                    <input type="text" id="correo" class="inputvalidation" name="correo" placeholder="Ingrese Correo" />
+                                    <span id="error-correo">* Por favor, Ingrese un campo válido</span> </div>
+                            </div>
+                            <div class="nombrecorreo">
+                                <input type="checkbox" id="terminos" name="terminos" value="Acepto">
+                                <a href="#">Términos y condiciones</a>
+                            </div>
+                            <div id="boton_enviar">
+                                <!--formmethod="POST"-->
+                                <input type="submit" name="subirtag" id="cajanaranja" value="OBTENER EL RESULTADO">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="bloque_relleno" style="float:left;width:100%">
+        </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        window.LideratisHelper = new Object();
+        var height_window = $(window).height();
+        var height_contenedor = $("#contenedor_principal").height();
+        var numHeight_window = parseFloat(height_window);
+        var numHeight_contendor = parseFloat(height_contenedor);
+        //console.log(numHeight_contendor);
+        //console.log(numHeight_window);
+        if (numHeight_window > numHeight_contendor) {
+            var pixel = numHeight_window - numHeight_contendor;
+            $("#bloque_relleno").css("height", pixel + "px");
+        }
+
+        LideratisHelper.CreateCookies = function(cookie_name, cookie_value, lifespan_in_days, valid_domain) {
+            var domain_string = valid_domain ? ("; domain=" + valid_domain) : '';
+            document.cookie = cookie_name + "=" + encodeURIComponent(cookie_value) +
+                "; max-age=" + 60 * 60 * 24 * lifespan_in_days +
+                "; path=/" + domain_string;
+
+        }
+
+        $(".respuestas input[type='checkbox']").on("click", function() {
+            var clase = $(this).attr("rel");
+            $("." + clase).prop('checked', false);
+            $("#" + $(this).attr("id")).prop('checked', true);
+            var valClase = $("#" + $(this).attr("id")).val();
+            LideratisHelper.CreateCookies(clase, valClase, 1, "");
+        });
+        //multipleCkeck
+
+        $(".multiple_check input[type='checkbox']").on('click', function() {
+            var arreglo = new Array();
+            $(".multiple_check input[type='checkbox']:checked").each(function() {
+                arreglo.push($(this).val());
+            });
+            //string
+            var texto = arreglo.join(',');
+            console.log(texto);
+            LideratisHelper.CreateCookies('check_multiple', texto, 1, "");
+        });
+    </script>
+    <script src="form_validation_landing02.js"></script>
+</body>
+
+</html>

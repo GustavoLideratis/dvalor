@@ -1,0 +1,576 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#contenedor_principal {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+#header {
+    width: 100%;
+    height: 88px;
+    /*background: rgba(83, 98, 128, 0.5);*/
+    background: url('images/headercolor.png');
+    opacity: 0.8;
+}
+
+#header0 {
+    width: 1170px;
+    height: 88px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#header_logo {
+    height: 40px;
+    width: 171px;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+}
+
+#header_logo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Banner*/
+
+#banner {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: -88px;
+    z-index: -1;
+    background: url('images/fondoprincipal.png') no-repeat center center;
+    background-size: cover;
+}
+
+#banner img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#content_frase {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
+
+#banner02 {
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#caja_texto {
+    width: 55%;
+    height: 340px;
+    background: rgba(19, 30, 63, 0.8);
+    margin-top: 275px;
+    position: relative;
+}
+
+#caja_texto p {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+
+#caja_texto .primero {
+    font-family: 'Arimo', sans-serif;
+    font-size: 79px;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    margin-left: 53px;
+    margin-top: 55px;
+}
+
+#caja_texto .segundo {
+    font-family: 'Arimo', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    margin-top: 135px;
+    margin-left: 53px;
+}
+
+#caja_texto .tercero {
+    font-family: 'Arimo', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    margin-top: 235px;
+    margin-left: 53px;
+}
+
+#content_problemas_comunes {
+    width: 100%;
+    height: auto;
+    background-color: #ebebeb;
+    float: left;
+}
+
+#content_problemas_comunes p {
+    margin: 0;
+    padding: 0;
+}
+
+#problemas_comunes {
+    width: 1170px;
+    margin: 0 auto;
+    background-color: #ebebeb;
+}
+
+#problemas_comunes .principal {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 64px;
+}
+
+#problemas_comunes .segundo {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#imagenproblema {
+    width: 1022px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+#imagenproblema img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#cuadro {
+    height: 91px;
+    width: 1015px;
+    margin: 0 auto;
+    /*background-color: #02488f;*/
+    background: url('images/bloque.png');
+    padding: 0;
+    margin-top: 25px;
+}
+
+
+/*
+#cuadro01 {
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid #02488f;
+}*/
+
+#cuadro .primero_cuadro {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    color: white;
+    line-height: 91px;
+}
+
+#cuadro02 {
+    width: 62px;
+    height: 34px;
+    background-color: #35466a;
+    margin: 0 auto;
+}
+
+#content_autodiagnostico {
+    width: 100%;
+    height: auto;
+    /*background-color: #02488f;*/
+    background: url('images/tercercontenedor.png');
+    float: left;
+}
+
+#content_autodiagnostico p {
+    margin: 0;
+    padding: 0;
+}
+
+#autodiagnostico {
+    width: 1170px;
+    margin: 0 auto;
+    /*  background-color: #02488f;*/
+}
+
+#autodiagnostico .principal {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+}
+
+
+/*
+#imagenautodiagnostico {
+    width: 115px;
+    height: 126px;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+#imagenautodiagnostico img {
+    width: 100%;
+    display: block;
+}*/
+
+#autodiagnostico a {
+    text-decoration: none;
+}
+
+#boton_autodiagnostico {
+    width: 390px;
+    height: 100px;
+    background-color: #ff8400;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 150px;
+    text-decoration: none;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    display: table;
+    text-align: center;
+    line-height: 100px;
+}
+
+
+/*
+#personaautodiagnostico {
+    width: 440px;
+    height: 353px;
+    float: right;
+    margin-top: -70px;
+    margin-right: 20px;
+}
+
+#personaautodiagnostico img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+*/
+
+#push_button {
+    width: 235px;
+    height: 222px;
+    float: right;
+    margin-right: 200px;
+    margin-top: -40px;
+    margin-bottom: 140px;
+}
+
+#push_button img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#content_caso {
+    width: 100%;
+    height: auto;
+    float: left;
+    background-color: #ff8400;
+    position: relative;
+}
+
+#caso {
+    width: 1170px;
+    margin: 0 auto;
+    height: auto;
+}
+
+#caso_titulo {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+#texto_primario {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    text-align: justify;
+    color: white;
+    margin: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+#caso .primergrupo {
+    width: 40%;
+    /*height: 541px;*/
+    float: left;
+    margin-top: 40px;
+}
+
+#caso .primergrupo p {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    text-align: justify;
+    color: white;
+    margin: 0px;
+    margin-left: 2px;
+}
+
+#imagen_caso {
+    /*width: 585px;*/
+    /*  height: 562px;*/
+    position: absolute;
+}
+
+#imagen_caso img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#content_casoscomunes {
+    width: 100%;
+    height: auto;
+    float: left;
+    background-color: #2e7fc6;
+}
+
+#casoscomunes {
+    width: 1170px;
+    margin: 0 auto;
+    height: auto;
+}
+
+#casoscomunes .principal {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+}
+
+#imagen_manolibro {
+    width: 589px;
+    height: 573px;
+    float: left;
+    margin-left: -120px
+}
+
+#imagen_manolibro img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#tresclaves {
+    width: 612px;
+    float: right;
+    margin-top: 80px;
+}
+
+#tresclaves a {
+    text-decoration: none;
+}
+
+#tresclaves p {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 29px;
+    text-align: justify;
+    color: white;
+}
+
+#tresclaves .btn_dowload {
+    width: 314px;
+    height: 80px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #ff8400;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    line-height: 80px;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+
+#tresclaves .btn_dowload .img_flecha img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#tresclaves .btn_dowload .img_flecha {
+    width: 39px;
+    height: 35px;
+    position: absolute;
+    top: 24px;
+    right: 60px;
+}
+
+.btn_dowload p {
+    margin: 0px;
+    padding: 0px;
+    margin-left: -45px !important;
+    text-align: center !important;
+}
+
+#form01 input {
+    width: 650px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px;
+    padding: 10px;
+    margin-top: 45px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    color: #c3c2c2;
+}
+
+input::-webkit-input-placeholder {
+    color: #c3c2c2;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+#form01 #enviar {
+    width: 250px;
+    height: 80px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    background-color: #ff8400;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content_suscribete {
+    width: 100%;
+    height: auto;
+    background-color: #070f1f;
+    float: left;
+}
+
+#suscribete {
+    width: 1170px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#suscribete .principal {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 53px;
+    text-align: center;
+    color: white;
+}
+
+#suscribete .contenedores {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.contenedores #content01 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contenedores #content01 p {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+    color: white;
+}
+
+.contenedores #content02 {
+    width: 480px;
+    height: 613px;
+    float: right;
+}
+
+#content02 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#form02 input {
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 45px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+#form02 #enviar2 {
+    width: 250px;
+    height: 80px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    background-color: #ff8400;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logofooter {
+    width: 224px;
+    height: 52px;
+    clear: both;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#logofooter img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}

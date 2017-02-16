@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#contenedor_principal {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+#header {
+    width: 100%;
+    height: 88px;
+    /*background: rgba(83, 98, 128, 0.5);*/
+    background: url('img/headercolor.png');
+}
+
+#header0 {
+    width: 1170px;
+    height: 88px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#header_logo {
+    height: 40px;
+    width: 171px;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+}
+
+#header_logo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Nuestra Propuesta*/
+
+#nuestraPropuesta {
+    width: 100%;
+    float: left;
+}
+
+#nuestraPropuestaInterna {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#tituloPrincipal {
+    width: 100%;
+}
+
+#tituloPrincipal p {
+    margin: 0px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 77px;
+    color: #122546;
+}
+
+
+/*Contenedores*/
+
+#contenidoPropuesta {
+    width: 100%;
+    float: left;
+}
+
+.contenedoresPro {
+    float: left;
+    margin-top: 36px;
+}
+
+.contenedoresPro .titulo {
+    width: 256px;
+    float: left;
+    margin-left: 50px;
+}
+
+.contenedoresPro .titulo p {
+    margin: 0px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #122546;
+}
+
+.contenedoresPro .parrafo {
+    width: 810px;
+    float: left;
+    border-left: 4px solid #122546;
+}
+
+.contenedoresPro .parrafo p {
+    margin: 0px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 15px;
+    margin-left: 30px;
+    color: #122546;
+}
+
+.leerMas {
+    width: 810px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.leerMas a {
+    margin: 0px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: justify;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 30px;
+    color: #122546;
+    text-decoration: none;
+}
+
+
+/*Contenido Formulario*/
+
+#contentFormulario {
+    width: 100%;
+    float: left;
+    margin-top: 100px;
+}
+
+#formularioInterno {
+    width: 685px;
+    position: relative;
+    background: #122546;
+    border-radius: 10px;
+    float: left;
+    margin-left: 50%;
+    left: -342px;
+}
+
+#tituloFormulario {
+    margin-top: 45px;
+}
+
+#tituloFormulario p {
+    margin: 0px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#formulario {
+    width: 410px;
+    margin: 0 auto;
+}

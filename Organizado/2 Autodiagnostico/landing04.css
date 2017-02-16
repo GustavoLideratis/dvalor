@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background: url('images/fondo04.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#contenedor_principal {
+    width: 100%;
+    height: auto;
+}
+
+#contenido_principal_form {
+    width: 1170px;
+    display: block;
+    margin: 0 auto;
+}
+
+#header {
+    height: 90px;
+    width: 100%;
+    background: rgba(24, 41, 105, 0.9);
+    margin: 0 auto;
+}
+
+#header0 {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#header_logo {
+    width: 270px;
+    position: absolute;
+    left: 55px;
+    top: 25px;
+}
+
+#header_logo img {
+    width: 100%;
+}
+
+#nuestrapropuesta {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+#nuestra_propuesta_interna {
+    width: 1170px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#interno {
+    margin: 0px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #1a2d76;
+    /*color: #000000;*/
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+#propuestas_content {
+    width: 100%;
+    height: auto;
+}
+
+.contenido_propuesta {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.imagen {
+    width: 25%;
+    height: auto;
+    float: left;
+}
+
+.parrafo {
+    width: 70%;
+    float: left;
+}
+
+.parrafo .titulo {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    color: #1a2d76;
+    text-align: justify;
+    width: 100%;
+}
+
+.parrafo .texto {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+    width: 92%;
+    margin-bottom: 70px;
+}
+
+#content_formulario {
+    width: 100%;
+    height: auto;
+    float: left;
+    background: #1a2e79;
+}
+
+#textoform {
+    margin-top: 40px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+    margin: 0px;
+}
+
+#textoform p {
+    margin: 0px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+#camposForm {
+    text-align: center;
+    position: relative;
+}
+
+#camposForm p {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: white;
+}
+
+#camposForm input {
+    width: 340px;
+    height: 30px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+#camposForm textarea {
+    width: 340px;
+    height: 100px;
+    margin-bottom: 25px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+#btn_enviar input {
+    margin: 0 auto;
+    width: 220px;
+    height: 60px;
+    background-color: #e77500;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    display: block;
+    border: 0px;
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width:1170px) {
+    #header0 {
+        width: 970px;
+    }
+    #nuestra_propuesta_interna {
+        width: 970px;
+        height: auto;
+        margin: 0 auto;
+    }
+    #contenido_principal_form {
+        width: 970px;
+    }
+}
+
+@media only screen and (max-width:970px) {
+    #header0 {
+        width: 90%;
+        margin-left: 5%;
+    }
+    #header_logo {
+        width: 270px;
+        left: 55px;
+        top: 25px;
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        left: 0;
+    }
+    #nuestra_propuesta_interna {
+        width: 90%;
+        margin-left: 5%;
+    }
+    #contenido_principal_form {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .imagen {
+        width: 100%;
+        float: left;
+    }
+    .parrafo {
+        width: 100%;
+        float: left;
+    }
+    .parrafo .titulo {
+        text-align: center;
+    }
+    .parrafo .texto {
+        width: 100%;
+    }
+    .content_imagen img {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width:750px) {
+    #contenido_principal_form {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    #header_logo {
+        width: 207px;
+        top: 40px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    body {
+        background: url('images/fondo_mobile.png') no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    #form01 input {
+        width: 90%;
+    }
+    #form01 textarea {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    #form01 input {
+        width: 90%;
+    }
+    #form01 textarea {
+        width: 90%;
+    }
+}

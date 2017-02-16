@@ -1,0 +1,1310 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+#contenedor_principal {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+#header {
+    height: 90px;
+    width: 100%;
+    background: rgba(8, 17, 37, 0.5);
+    margin: 0 auto;
+}
+
+#header0 {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#header_logo {
+    width: 270px;
+    position: absolute;
+    left: 55px;
+    top: 25px;
+}
+
+#header_logo img {
+    width: 100%;
+}
+
+#banner {
+    width: 100%;
+    /*min-width: 1170px;*/
+    height: 763px;
+    position: relative;
+    margin-top: -120px;
+    z-index: -1;
+    background: url('http://contentz.mkt8398.com/lp/10984/13945/images/fondo01.png') no-repeat center center;
+    background-size: cover;
+}
+
+#banner img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#content_frase {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
+
+#banner02 {
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#caja_texto {
+    width: 55%;
+    height: 340px;
+    background: rgba(8, 17, 37, 0.5);
+    margin-top: 275px;
+    position: relative;
+}
+
+#caja_texto p {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+
+#caja_texto .primero {
+    font-family: 'Arimo', sans-serif;
+    font-size: 79px;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    margin-left: 53px;
+    margin-top: 55px;
+}
+
+#caja_texto .segundo {
+    font-family: 'Arimo', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    margin-top: 135px;
+    margin-left: 53px;
+}
+
+#caja_texto .tercero {
+    font-family: 'Arimo', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    margin-top: 235px;
+    margin-left: 53px;
+}
+
+#content_problemas_comunes {
+    width: 100%;
+    height: auto;
+    background-color: #ebebeb;
+    float: left;
+}
+
+#content_problemas_comunes p {
+    margin: 0;
+    padding: 0;
+}
+
+#problemas_comunes {
+    width: 1170px;
+    margin: 0 auto;
+    background-color: #ebebeb;
+}
+
+#problemas_comunes .principal {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 64px;
+}
+
+#problemas_comunes .segundo {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#imagenproblema {
+    width: 1022px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+#imagenproblema img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#cuadro {
+    height: 91px;
+    width: 1015px;
+    margin: 0 auto;
+    background-color: #02488f;
+    border-radius: 5px;
+    padding: 0;
+}
+
+#cuadro01 {
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid #02488f;
+}
+
+#cuadro .primero_cuadro {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: white;
+    line-height: 91px;
+}
+
+#cuadro02 {
+    width: 44px;
+    height: 56px;
+    background-color: #02488f;
+    margin: 0 auto;
+}
+
+#content_autodiagnostico {
+    width: 100%;
+    height: auto;
+    background-color: #02488f;
+    float: left;
+}
+
+#content_autodiagnostico p {
+    margin: 0;
+    padding: 0;
+}
+
+#autodiagnostico {
+    width: 1170px;
+    margin: 0 auto;
+    background-color: #02488f;
+}
+
+#autodiagnostico .principal {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+}
+
+
+/*
+#imagenautodiagnostico {
+    width: 115px;
+    height: 126px;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+#imagenautodiagnostico img {
+    width: 100%;
+    display: block;
+}*/
+
+#autodiagnostico a {
+    text-decoration: none;
+}
+
+#boton_autodiagnostico {
+    width: 390px;
+    height: 100px;
+    background-color: #ff8400;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 150px;
+    text-decoration: none;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    display: table;
+    text-align: center;
+    line-height: 100px;
+}
+
+
+/*
+#personaautodiagnostico {
+    width: 440px;
+    height: 353px;
+    float: right;
+    margin-top: -70px;
+    margin-right: 20px;
+}
+
+#personaautodiagnostico img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+*/
+
+#push_button {
+    width: 235px;
+    height: 222px;
+    float: right;
+    margin-right: 200px;
+    margin-top: -40px;
+    margin-bottom: 140px;
+}
+
+#push_button img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#content_caso {
+    width: 100%;
+    height: auto;
+    float: left;
+    background-color: #ff8400;
+    position: relative;
+}
+
+#caso {
+    width: 1170px;
+    margin: 0 auto;
+    height: auto;
+}
+
+#caso_titulo {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+#texto_primario {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    text-align: justify;
+    color: white;
+    margin: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+#caso .primergrupo {
+    width: 40%;
+    /*height: 541px;*/
+    float: left;
+    margin-top: 40px;
+}
+
+#caso .primergrupo p {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    text-align: justify;
+    color: white;
+    margin: 0px;
+    margin-left: 2px;
+}
+
+#imagen_caso {
+    /*width: 585px;*/
+    /*  height: 562px;*/
+    position: absolute;
+}
+
+#imagen_caso img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#content_casoscomunes {
+    width: 100%;
+    height: auto;
+    float: left;
+    background-color: #2e7fc6;
+}
+
+#casoscomunes {
+    width: 1170px;
+    margin: 0 auto;
+    height: auto;
+}
+
+#casoscomunes .principal {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+}
+
+#imagen_manolibro {
+    width: 589px;
+    height: 573px;
+    float: left;
+    margin-left: -120px
+}
+
+#imagen_manolibro img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#tresclaves {
+    width: 612px;
+    float: right;
+    margin-top: 80px;
+}
+
+#tresclaves a {
+    text-decoration: none;
+}
+
+#tresclaves p {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 29px;
+    text-align: justify;
+    color: white;
+}
+
+#tresclaves .btn_dowload {
+    width: 314px;
+    height: 80px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #ff8400;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    line-height: 80px;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+
+#tresclaves .btn_dowload .img_flecha img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#tresclaves .btn_dowload .img_flecha {
+    width: 39px;
+    height: 35px;
+    position: absolute;
+    top: 24px;
+    right: 60px;
+}
+
+.btn_dowload p {
+    margin: 0px;
+    padding: 0px;
+    margin-left: -45px !important;
+    text-align: center !important;
+}
+
+#form01 input {
+    width: 650px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px;
+    padding: 10px;
+    margin-top: 45px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    color: #c3c2c2;
+}
+
+input::-webkit-input-placeholder {
+    color: #c3c2c2;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+#form01 #enviar {
+    width: 250px;
+    height: 80px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    background-color: #ff8400;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content_suscribete {
+    width: 100%;
+    height: auto;
+    background-color: #070f1f;
+    float: left;
+}
+
+#suscribete {
+    width: 1170px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#suscribete .principal {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 53px;
+    text-align: center;
+    color: white;
+}
+
+#suscribete .contenedores {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.contenedores #content01 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contenedores #content01 p {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+    color: white;
+}
+
+.contenedores #content02 {
+    width: 480px;
+    height: 613px;
+    float: right;
+}
+
+#content02 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#form02 input {
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 45px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+#form02 #enviar2 {
+    width: 250px;
+    height: 80px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    background-color: #ff8400;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logofooter {
+    width: 224px;
+    height: 52px;
+    clear: both;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#logofooter img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+/* Media Query*/
+
+@media (min-width: 971px) and (max-width: 1170px) {
+    #header0 {
+        width: 100%;
+    }
+    #banner02 {
+        width: 100%;
+    }
+    #problemas_comunes {
+        width: 100%;
+    }
+    #imagenproblema {
+        width: 90%;
+    }
+    #cuadro {
+        width: 90%;
+    }
+    #cuadro .primero_cuadro {
+        font-size: 32px;
+    }
+    #autodiagnostico {
+        width: 90%;
+    }
+    #push_button {
+        width: 30%;
+        height: auto;
+        margin-right: -16px;
+        margin-top: -30px;
+    }
+    #caso {
+        width: 90%;
+    }
+    #imagen_caso {
+        width: auto;
+        bottom: -21px;
+    }
+    #casoscomunes {
+        width: 90%;
+    }
+    #autodiagnostico {
+        width: 90%;
+    }
+    #imagen_manolibro {
+        width: 50%;
+        height: auto;
+        margin-top: 115px;
+    }
+    #tresclaves {
+        width: 50%;
+    }
+    #form01 input {
+        width: 100%;
+    }
+    #enviar {
+        margin-bottom: 100px;
+    }
+    #suscribete {
+        width: 90%;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 970px) {
+    #header0 {
+        width: 100%;
+    }
+    #banner02 {
+        width: 100%;
+    }
+    #caja_texto {
+        width: 70%;
+    }
+    #problemas_comunes {
+        width: 90%;
+        max-width: 970px;
+    }
+    #imagenproblema {
+        width: 100%;
+    }
+    #cuadro {
+        width: 100%;
+    }
+    #cuadro .primero_cuadro {
+        line-height: 40px;
+    }
+    #autodiagnostico {
+        width: 90%;
+        max-width: 750px;
+    }
+    #push_button {
+        width: 30%;
+        height: auto;
+        margin-right: -16px;
+        margin-top: -30px;
+    }
+    #caso {
+        width: 90%;
+    }
+    #caso .primergrupo {
+        width: 100%;
+        height: auto;
+    }
+    #caso_titulo {
+        font-size: 35px;
+    }
+    #imagen_caso {
+        width: auto;
+        height: auto;
+        position: relative;
+        margin: 0 auto;
+        margin-bottom: -26px;
+    }
+    #casoscomunes {
+        width: 90%;
+    }
+    #casoscomunes .principal {
+        font-size: 30px;
+    }
+    #autodiagnostico {
+        width: 90%;
+    }
+    #imagen_manolibro {
+        width: 50%;
+        height: auto;
+        margin-top: 115px;
+    }
+    #tresclaves {
+        width: 50%;
+    }
+    #form01 input {
+        width: 100%;
+    }
+    #enviar {
+        margin-bottom: 100px;
+    }
+    #suscribete {
+        width: 90%;
+    }
+    #content01 {
+        width: 98% !important;
+        margin-bottom: 20px !important;
+    }
+    #content01 p {
+        font-size: 30px !important;
+    }
+    #content02 {
+        width: auto !important;
+        height: auto !important;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 750px) {
+    #header_logo {
+        width: 270px;
+        position: relative;
+        margin: 0 auto;
+        display: block;
+        top: 25px;
+        left: 0px;
+    }
+    #header0 {
+        width: 100%;
+    }
+    #banner02 {
+        width: 100%;
+    }
+    #caja_texto {
+        width: 100%;
+    }
+    #problemas_comunes {
+        width: 90%;
+        max-width: 750px;
+    }
+    #problemas_comunes .principal {
+        font-size: 30px;
+    }
+    #problemas_comunes .segundo {
+        font-size: 17px;
+    }
+    #imagenproblema {
+        width: 100%;
+    }
+    #cuadro {
+        width: 100%;
+    }
+    #cuadro .primero_cuadro {
+        line-height: 45px;
+        font-size: 30px;
+    }
+    #autodiagnostico {
+        width: 90%;
+        max-width: 750px;
+    }
+    #autodiagnostico .principal {
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    #boton_autodiagnostico {
+        margin-top: 40px;
+        width: 60%;
+    }
+    #boton_autodiagnostico p {
+        font-size: 30px;
+    }
+    #push_button {
+        width: 30%;
+        height: auto;
+        margin-right: -16px;
+        margin-top: -30px;
+        margin-bottom: 40px;
+    }
+    /*Prueab*/
+    #caso {
+        width: 90%;
+        max-width: 543px;
+    }
+    #caso .primergrupo {
+        width: 100%;
+        height: auto;
+    }
+    #caso_titulo {
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #texto_primario {
+        font-size: 17px;
+    }
+    #caso .primergrupo p {
+        font-size: 17px;
+    }
+    #imagen_caso {
+        width: 336px;
+        height: auto;
+        position: relative;
+        margin: 0 auto;
+        margin-bottom: -10px;
+    }
+    #imagenproblema {
+        width: 230px;
+    }
+    #movil2 {
+        display: block !important;
+    }
+    #desktops2 {
+        display: none !important;
+    }
+    #casoscomunes {
+        width: 90%;
+    }
+    #casoscomunes .principal {
+        font-size: 30px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    #tresclaves {
+        margin-top: 0px;
+    }
+    #tresclaves p {
+        font-size: 30px
+    }
+    #imagen_manolibro {
+        display: none;
+    }
+    #autodiagnostico {
+        width: 90%;
+    }
+    #imagen_manolibro2 {
+        display: block !important;
+        width: 80%;
+        float: left;
+        margin-left: -10%;
+        margin-top: 70px;
+    }
+    #imagen_manolibro2 img {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    #tresclaves {
+        width: 100%;
+    }
+    #form01 input {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    #content_suscribete {
+        max-width: 750px;
+    }
+    #suscribete {
+        width: 90%;
+    }
+    #suscribete .principal {
+        display: none;
+    }
+    #suscribete .contenedores {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #content01 p {
+        margin-bottom: 70px;
+        font-size: 30px !important;
+    }
+    #contentescritorio {
+        display: none;
+    }
+    #content02movil {
+        display: block !important;
+        width: 320px;
+        margin: 0 auto;
+    }
+    #content02movil img {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    #logofooter {
+        display: none;
+    }
+    /*prueba*/
+}
+
+
+/*Extra small devices ( 480px)*/
+
+@media (min-width: 321px) and (max-width: 480px) {
+    #header0 {
+        width: 100%;
+    }
+    #header_logo {
+        width: 207px;
+        position: relative;
+        margin: 0 auto;
+        display: block;
+        top: 40px;
+        left: 0px;
+    }
+    #banner {
+        min-width: auto;
+        height: auto;
+        background: url('images/fondo_movil.png') no-repeat center top !important;
+        background-size: cover !important;
+    }
+    #banner #desktops {
+        display: none;
+    }
+    #banner02 {
+        width: 100%;
+    }
+    #banner #movil {
+        display: block !important;
+    }
+    #caja_texto {
+        margin-top: 300px !important;
+        width: 90%;
+        margin: 0 auto;
+    }
+    #caja_texto p {
+        position: relative;
+    }
+    #caja_texto .primero {
+        margin-top: 5px;
+    }
+    #caja_texto .segundo {
+        font-size: 25px;
+        margin-top: 5px;
+    }
+    #caja_texto .tercero {
+        font-size: 17px;
+        margin-top: 5px;
+    }
+    #movil2 {
+        display: block !important;
+    }
+    #desktops2 {
+        display: none !important;
+    }
+    #imagenproblema {
+        width: 230px;
+        height: auto;
+    }
+    #problemas_comunes {
+        max-width: 480px;
+        width: 90%;
+    }
+    #problemas_comunes .principal {
+        font-size: 30px;
+    }
+    #problemas_comunes .segundo {
+        font-size: 17px;
+    }
+    #cuadro {
+        max-width: 480px;
+        width: 90%;
+    }
+    #cuadro .primero_cuadro {
+        /*line-height: 30px;*/
+        line-height: 45px;
+        font-size: 21px;
+    }
+    #autodiagnostico {
+        max-width: 543px;
+    }
+    #autodiagnostico .principal {
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #boton_autodiagnostico {
+        width: 50%;
+        height: 60px;
+        font-size: 17px;
+        line-height: 60px;
+        margin-top: 0px;
+    }
+    #push_button {
+        width: 30%;
+        height: auto;
+        margin-right: 2px;
+        margin-top: -18px;
+        margin-bottom: 30px;
+    }
+    #caso {
+        width: 90%;
+        max-width: 543px;
+    }
+    #caso .primergrupo {
+        width: 100%;
+        height: auto;
+    }
+    #caso_titulo {
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #texto_primario {
+        font-size: 17px;
+    }
+    #caso .primergrupo p {
+        font-size: 17px;
+    }
+    #imagen_caso {
+        width: auto;
+        height: auto;
+        position: relative;
+        margin: 0 auto;
+        margin-bottom: -10px;
+    }
+    #content_casoscomunes {
+        max-width: 480px;
+    }
+    #casoscomunes {
+        width: 90%;
+    }
+    #casoscomunes .principal {
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #imagen_manolibro {
+        display: none;
+    }
+    #autodiagnostico {
+        width: 90%;
+    }
+    #imagen_manolibro2 {
+        display: block !important;
+        width: 80%;
+        float: left;
+        margin-left: -10%;
+        margin-top: 70px;
+    }
+    #imagen_manolibro2 img {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    #tresclaves {
+        width: 100%;
+        margin-top: 0px;
+    }
+    #tresclaves p {
+        font-size: 30px;
+    }
+    #form01 input {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    #form02 .inputvalidation {
+        margin: 0px;
+    }
+    #content_suscribete {
+        max-width: 543px;
+    }
+    #suscribete {
+        width: 90%;
+    }
+    #suscribete .principal {
+        display: none;
+    }
+    #suscribete .contenedores {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #content01 p {
+        margin-bottom: 70px;
+    }
+    #contentescritorio {
+        display: none;
+    }
+    #content02movil {
+        display: block !important;
+        width: 320px;
+        margin: 0 auto;
+    }
+    #content02movil img {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    #logofooter {
+        display: none;
+    }
+    #tresclaves .btn_dowload {
+        width: 100% !important;
+    }
+    #content02movil {
+        width: auto;
+    }
+}
+
+@media (max-width: 320px) {
+    body {
+        min-width: 320px;
+    }
+    #banner02 {
+        width: 100%;
+    }
+    #contenedor_principal {
+        max-width: 320px;
+    }
+    #header0 {
+        width: 100%;
+    }
+    #header_logo {
+        width: 207px;
+        position: relative;
+        margin: 0 auto;
+        display: block;
+        top: 40px;
+        left: 0px;
+    }
+    #caja_texto {
+        margin-top: 305px !important;
+        margin-left: 5%;
+        width: 90%;
+    }
+    #caja_texto p {
+        position: relative;
+        margin-bottom: 0px;
+        margin-top: 5px !important;
+    }
+    #banner {
+        max-width: 320px;
+        width: 100%;
+        background: url('images/fondo_movil.png') no-repeat center center !important;
+        background-size: cover !important;
+    }
+    #desktops {
+        display: none !important;
+    }
+    #movil {
+        display: block !important;
+    }
+    #banner02 {
+        max-width: 320px;
+    }
+    #caja_texto .primero {
+        font-size: 69px;
+    }
+    #caja_texto .segundo {
+        font-size: 30px;
+    }
+    #caja_texto .tercero {
+        font-size: 12px
+    }
+    #problemas_comunes {
+        width: 90%;
+        max-width: 320px;
+    }
+    #imagenproblema {
+        width: 100%;
+    }
+    #desktops2 {
+        display: none !important;
+    }
+    #movil2 {
+        display: block !important;
+    }
+    #cuadro {
+        width: 100%;
+    }
+    #cuadro .primero_cuadro {
+        line-height: 30px;
+        font-size: 25px;
+    }
+    #autodiagnostico {
+        width: 90%;
+        max-width: 320px;
+    }
+    #problemas_comunes .principal {
+        font-size: 30px;
+    }
+    #problemas_comunes .segundo {
+        font-size: 17px;
+    }
+    #autodiagnostico .principal {
+        font-size: 25px;
+    }
+    #boton_autodiagnostico {
+        width: 50%;
+        font-size: 20px;
+        height: 60px;
+        line-height: 60px;
+    }
+    #push_button {
+        width: 100px;
+        height: auto;
+        margin-right: -10px;
+        margin-top: -15px;
+        margin-bottom: 100px;
+    }
+    #caso {
+        max-width: 320px;
+        width: 90%;
+    }
+    #caso_titulo {
+        font-size: 25px;
+    }
+    #texto_primario {
+        font-size: 17px;
+    }
+    #caso .primergrupo {
+        width: 100%;
+        height: auto;
+    }
+    #caso .primergrupo p {
+        font-size: 17px;
+    }
+    #imagen_caso {
+        width: 250px;
+        height: auto;
+        position: relative;
+        margin: 0 auto;
+        margin-bottom: -8px;
+    }
+    #casoscomunes {
+        width: 90%;
+        max-width: 320px;
+    }
+    #casoscomunes .principal {
+        font-size: 25px;
+    }
+    #tresclaves {
+        width: 100%;
+    }
+    #tresclaves p {
+        font-size: 17px;
+    }
+    #imagen_manolibro {
+        display: none;
+    }
+    #imagen_manolibro2 {
+        display: block !important;
+    }
+    #form01 input {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    #imagen_manolibro2 img {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    #imagen_manolibro2 {
+        margin-top: 80px;
+        float: left;
+        margin-left: -5%;
+        width: 200px;
+    }
+    #suscribete {
+        width: 90%;
+        max-width: 320px;
+    }
+    #suscribete .principal {
+        font-size: 25px;
+    }
+    #suscribete .contenedores {
+        width: 100%;
+    }
+    #content01 p {
+        font-size: 17px !important;
+    }
+    #contentescritorio {
+        display: none !important;
+    }
+    #logofooter {
+        display: none;
+    }
+    #form02 input {
+        height: 20px;
+    }
+    #form02 #enviar2 {
+        width: 50%;
+        height: 30px;
+        font-size: 17px;
+        line-height: 15px;
+        margin-bottom: 70px;
+    }
+    #tresclaves .btn_dowload {
+        width: 100% !important;
+    }
+    #content02movil {
+        display: block !important;
+        width: auto;
+        margin: 0 auto;
+    }
+    #content02movil img {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+}

@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#contenedor_principal {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+#header {
+    width: 100%;
+    height: 88px;
+    /*background: rgba(83, 98, 128, 0.5);*/
+    background: url('img/headercolor.png');
+}
+
+#header0 {
+    width: 1170px;
+    height: 88px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#header_logo {
+    height: 40px;
+    width: 171px;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+}
+
+#header_logo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*newsletter*/
+
+#newsletter {
+    float: left;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+#content_newsletter {
+    width: 1170px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.content {
+    float: left;
+    position: relative;
+    margin-top: 70px;
+}
+
+.cont_primero {
+    width: 40%;
+}
+
+.cont_segundo {
+    width: 60%;
+}
+
+#imagenIpad img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#imagenIpad {
+    width: 429px;
+    margin: 0 auto;
+}
+
+#parrafos {
+    position: relative;
+}
+
+#parrafos h1 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    margin: 0px;
+    font-size: 44px;
+    text-align: center;
+    color: #122546;
+}
+
+#parrafos p {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    margin: 0px;
+    font-size: 20px;
+    text-align: center;
+    color: #122546;
+    margin-top: 40px;
+}
+
+#formularioprincipal {
+    margin-top: 60px;
+    text-align: center;
+}
+
+#formularioprincipal form input {
+    text-align: center;
+    width: 60%;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#formularioprincipal form #descargar {
+    height: 80px;
+    background: url('img/btn_descargar.png') no-repeat;
+    border: none;
+    text-align: center;
+    width: 312px;
+    margin-top: 50px;
+    font-family: 'PT Sans', sans-serif;
+    color: #ffffff;
+    font-weight: 700px;
+    font-size: 38px;
+};

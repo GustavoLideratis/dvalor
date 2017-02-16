@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#contenedor_principal {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+#header {
+    width: 100%;
+    height: 88px;
+    /*background: rgba(83, 98, 128, 0.5);*/
+    background: url('img/headercolor.png');
+}
+
+#header0 {
+    width: 1170px;
+    height: 88px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#header_logo {
+    height: 40px;
+    width: 171px;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+}
+
+#header_logo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*newsletter*/
+
+#interes {
+    float: left;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+#content_interes {
+    width: 1170px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.content {
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+#titulo_principal h1 {
+    margin: 0px;
+    text-align: center;
+    margin-top: 124px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #122546;
+}
+
+.parrafo .parrafo01 {
+    margin: 0px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    text-align: center;
+    color: #122546;
+    margin-top: 100px;
+}
+
+.parrafo .parrafo02 {
+    margin: 0px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #122546;
+    margin-top: 45px;
+}
+
+#caja_azul {
+    width: 600px;
+    height: 235px;
+    background: #122546;
+    margin-top: 60px;
+    float: right;
+    margin-right: 10px;
+}
+
+#libro_chico img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#libro_chico {
+    width: 217px;
+    height: 243px;
+    margin-top: 30px;
+    margin-left: 10px;
+    float: left;
+}
+
+#parrafo_interno {
+    width: 350px;
+    float: left;
+}
+
+#parrafo_interno p {
+    margin: 0px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 32px;
+}
+
+#content_btn {
+    width: 203px;
+    height: 59px;
+    margin: 0 auto;
+    margin-top: 22px;
+}
+
+#btn_descargar {
+    text-decoration: none;
+    width: 203px;
+    height: 59px;
+    float: left;
+}
+
+#btn_descargar p {
+    background: url('img/btn_descargarpeque.png');
+    margin: 0px;
+    /*width: 203px;
+    height: 59px;*/
+    text-align: center;
+    line-height: 49px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #ffffff;
+}

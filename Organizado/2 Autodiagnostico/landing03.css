@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+#contenedor_principal {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    float: left;
+    background: url('images/fondopage3.png') no-repeat center top fixed;
+    background-size: cover;
+}
+
+#header {
+    height: 90px;
+    width: 100%;
+    background: rgba(24, 41, 105, 0.9);
+    margin: 0;
+}
+
+#header0 {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#header_logo {
+    width: 270px;
+    position: absolute;
+    left: 55px;
+    top: 25px;
+}
+
+#header_logo img {
+    width: 100%;
+}
+
+#contenedor_respuestas {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+#content_respuesta {
+    width: 1170px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#texto_principal {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+#texto_principal p {
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: #1a2d76;
+}
+
+#content_pregunta_respuesta {
+    width: 900px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.pregunta_respuesta {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    float: left;
+    margin-bottom: 45px;
+}
+
+.pregunta {
+    margin-left: 12%;
+    width: 88%;
+    height: auto;
+    float: left;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #1a2d76;
+}
+
+.respuesta {
+    width: 20%;
+    height: auto;
+    float: left;
+}
+
+.respuesta .rspt {
+    width: 60%;
+    float: left;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: justify;
+    color: #1a2d76;
+}
+
+.respuesta .simb_rspt {
+    width: 43px;
+    height: 43px;
+    float: left;
+}
+
+.respuesta .simb_rspt img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.contenido {
+    width: 80%;
+    height: auto;
+    float: left;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+    color: #000000;
+    /*font-weight: bold;*/
+}
+
+.contenido p {
+    margin: 0;
+}
+
+#recuerda {
+    width: 100%;
+    float: left;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    text-align: center;
+    color: #1a2d76;
+}
+
+#boton_propuesta {
+    width: 100%;
+    float: left;
+    text-decoration: none;
+}
+
+#boton_propuesta_click {
+    width: 590px;
+    height: 110px;
+    display: table;
+    background-color: #ff8400;
+    margin: 0 auto;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 170px;
+}
+
+#boton_propuesta_click p {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0px;
+    padding: 0px;
+}
+
+@media only screen and (max-width:1170px) {
+    #header0 {
+        width: 970px;
+    }
+    #content_respuesta {
+        width: 970px;
+    }
+}
+
+@media only screen and (max-width:970px) {
+    #header_logo {
+        width: 270px;
+        left: 55px;
+        top: 25px;
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        left: 0;
+    }
+    #header0 {
+        width: 100%;
+    }
+    #content_respuesta {
+        width: 100%;
+    }
+    #content_pregunta_respuesta {
+        width: 90%;
+        margin-left: 5%;
+        float: left;
+    }
+    .pregunta {
+        margin-left: 0;
+        width: 100%;
+    }
+    .respuesta {
+        width: 100%;
+    }
+    .respuesta .rspt {
+        width: 130px;
+    }
+    .contenido {
+        width: 100%;
+        color: #000000;
+        /*  font-weight: bold;*/
+    }
+}
+
+@media only screen and (max-width:750px) {
+    .contenido {
+        width: 80%;
+        text-align: justify;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width:670px) {
+    #boton_propuesta_click {
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    #header_logo {
+        width: 207px;
+        top: 40px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    #contenedor_principal {
+        background: url('images/fondo_mobile.png') no-repeat;
+        background-size: 100% 100%;
+    }
+}
